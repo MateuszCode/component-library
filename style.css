@@ -1,0 +1,454 @@
+html,body {
+    margin:0;
+    padding:0;
+}
+
+.title {
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+}
+
+/* BADGE */
+
+.badges {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.badge {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 0.75rem;
+    padding: 1em;
+    text-align: center;
+    width: 8em;
+    margin: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+@media (min-width: 400px) {
+    .badge {
+        font-size: 1rem
+    }
+}
+
+.badge-pill {
+    border-radius: 30px;
+}
+
+.badge-square {
+    border-radius: 5px;
+}
+
+.badge-gray {
+    color: #1F2937;
+    background-color: #F3F4F6;
+}
+
+.badge-red {
+    color: #991B1B;
+    background-color: #FEE2E2;
+}
+
+.badge-yellow {
+    color: #92400E;
+    background-color: #FEF3C7;
+}
+
+.badge-green {
+    color: #065F46;
+    background-color: #D1FAE5;
+}
+
+.badge-blue {
+    color: #1E40AF;
+    background-color: #DBEAFE;
+}
+
+.badge-indigo {
+    color: #3730A3;
+    background-color: #E0E7FF;
+}
+
+.badge-purple {
+    color: #5B21B6;
+    background-color: #EDE9FE;
+}
+
+.badge-pink {
+    color: #9D174D;
+    background-color: #FCE7F3;
+}
+
+/* BANNER */
+
+.banner {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-size: 0.75rem;
+    margin: 1em auto;
+    display: flex;
+    align-items: start;
+    border-radius: 6px;
+    width: 80%;
+    padding: 0em 2em;
+}
+
+.banner-icon {
+    font-size: 1rem;
+    padding-top: 1em;
+    margin-right: 0.25em;
+}
+
+.banner-text {
+    margin-top: -0.5em;
+}
+
+@media (min-width: 500px) {
+    .banner {
+        padding: 0em 3em;
+        font-size: 1rem;
+
+    }
+
+    .banner-icon {
+        font-size: 1.2rem;
+        padding-top: 1.2em;
+    }
+}
+
+.banner-yellow {
+    background-color: #FFFBEB;
+    color: #92400E;
+}
+
+.banner-text-yellow {
+    color: #B45309;
+}
+
+.icon-yellow {
+    color: #FBBF24
+}
+
+.banner-green {
+    background-color: #ECFDF5;
+    color: #065F46;
+}
+
+.banner-text-green {
+    color: #047857
+}
+
+.icon-green {
+    color: #34D399
+}
+
+.banner-blue {
+    background-color: #EFF6FF;
+    color: #1E40AF;
+}
+
+.banner-text-blue {
+    color: #1C51B9
+}
+
+.icon-blue {
+    color: #60A5FA
+}
+
+.banner-red {
+    background-color: #FEF2F2;
+    color: #92400E;
+}
+
+.banner-text-red {
+    color: #B45309
+}
+
+.icon-red {
+    color: #F87171
+}
+
+/* Card */
+
+.card {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    padding: 1.5em;
+    text-align: center;
+    margin: 2.5em auto;
+    background: #F9FAFB;
+    border-radius: 8px;
+    width: 50%;
+    -webkit-box-shadow: 0px 0px 7px 0px #808080; 
+    box-shadow: 0px 0px 7px 0px #808080;
+    position: relative;
+    color: #111827;
+    font-size: 0.75rem;
+}
+
+.card-text {
+    color: #6B7280;
+}
+
+.card-icon {
+    position: absolute;
+    font-size: 1.5em;
+    top: -20px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 2em;
+    height: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-box-shadow: 0px 0px 7px 0px #808080; 
+    box-shadow: 0px 0px 7px 0px #808080;
+    border-radius: 8px;
+    color: white;
+
+}
+
+@media (min-width: 700px) {
+    .card {
+        width: 40%;
+        font-size: 1rem;
+    }
+
+}
+
+.card-icon-hover-state:hover,
+.card-icon-hover-state:focus {
+    cursor: pointer;
+    scale: 1.1
+}
+
+.card-icon-blue {
+    background-color: #3F75FE;
+   
+}
+
+.card-icon-green {
+    background-color: #67db63;
+   
+}
+
+.card-icon-red {
+    background-color: #ff5c5c;
+   
+}
+
+.card-icon-yellow {
+    background-color: #fbdb24;
+   
+}
+
+.card-purple-icon {
+    background-color: #8824fb;
+}
+
+/* TESTIMONIAL */
+
+.testimonial {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    padding: 2em 3em;
+    margin: 1em auto;
+    color: #FFFFFF;
+    background-color: #3F75FE;
+    position: relative;
+    margin-top: 4em;
+}
+
+.testimonial-img {
+        width: 250px;
+        display: block;
+		max-height: 140px;
+        border-radius: 5px;
+		object-fit: cover;
+        position: absolute;
+        left: 0;
+        right: 0;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        top: -60px;
+       
+}
+
+.testimonial-icon {
+    font-size: 1.5rem
+}
+
+.testimonial-signature {
+    font-size: 0.75rem;
+}
+
+
+@media (min-width: 800px) {
+    .testimonial {
+      font-size: 1.25rem;
+      display: flex;
+      justify-content: right;
+      margin-bottom: 3em;
+      padding-top: 3.5em;
+
+    }
+    
+    .testimonial-img {
+        max-height: 200px;
+        width: 330px;
+        top: -100px;
+    }
+
+  
+    
+    .testimonial-icon {
+        font-size: 1.75rem
+    }
+    
+    .testimonial-signature {
+        font-size: 1rem;
+    }
+
+}
+
+/* Popup */
+
+.popup {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-size: 0.75rem;
+    margin: 1em auto;
+    display: flex;
+    align-items: start;
+    border-radius: 6px;
+    min-width: 200px;
+    width: 50%;
+    padding: 0em 1em;
+    -webkit-box-shadow: 0px 0px 7px 0px #808080; 
+    box-shadow: 0px 0px 7px 0px #808080;
+    position: fixed;
+   
+}
+
+
+.popup-position-bottom-left {
+    bottom: 25px;
+    left: 25px
+}
+
+.popup-position-bottom-right {
+    bottom: 25px;
+    right: 25px
+}
+
+.popup-position-top-right {
+    top: 25px;
+    right: 25px
+}
+
+.popup-position-top-left {
+    top: 25px;
+    left: 25px
+}
+
+.popup-icon {
+    font-size: 1rem;
+    padding-top: 1em;
+    margin-right: 0.25em;
+}
+
+.popup-text {
+    margin-top: -0.5em;
+}
+
+@media (min-width: 500px) {
+    .popup {
+        font-size: 1rem;
+        min-width: 350px;
+        width: 25%;
+
+    }
+
+    .popup-icon {
+        font-size: 1.5rem;
+        padding-top: 0.90em;
+    }
+  
+}
+
+.popup-yellow {
+background-color: #FFFBEB;
+color: #92400E;
+}
+
+.popup-text-yellow {
+color: #B45309;
+}
+
+.popup-icon-yellow {
+color: #FBBF24
+}
+
+.popup-green {
+background-color: #ECFDF5;
+color: #065F46;
+}
+
+.popup-text-green {
+color: #047857
+}
+
+.popup-icon-green {
+color: #34D399
+}
+
+.popup-blue {
+background-color: #EFF6FF;
+color: #1E40AF;
+}
+
+.popup-text-blue {
+color: #1C51B9
+}
+
+.popup-icon-blue {
+color: #60A5FA
+}
+
+.popup-red {
+background-color: #FEF2F2;
+color: #92400E;
+}
+
+.popup-text-red {
+color: #B45309
+}
+
+.popup-icon-red {
+color: #F87171
+}
+
+/* Tooltip */
+
+.tooltip {
+    display: none;
+    width: 300px;
+    background-color: black;
+}
+
+.word:hover + .tooltip {
+    display: block;
+}
